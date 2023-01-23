@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Coop Application API tests" parallel="methods" thread-count="10" verbose="1">
+
+    <listeners>
+        <listener class-name="baseSettings.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="User Tests">
+        <classes>
+            <class name="testScenarios.userInfo.UserInfo"/>
+        </classes>
+    </test>
+
+    <test name="Barn Operation Tests">
+        <classes>
+            <class name="testScenarios.unlockBarn.UnlockBarn"/>
+        </classes>
+    </test>
+</suite>
