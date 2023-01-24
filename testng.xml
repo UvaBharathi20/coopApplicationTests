@@ -1,11 +1,5 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-
-<suite name="CoopApplicationAPItests" parallel="methods" thread-count="10" verbose="1">
-
-    <listeners>
-        <listener class-name="baseSettings.AnnotationTransformer"/>
-    </listeners>
-
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run">
     <test name="User Tests">
         <classes>
             <class name="testScenarios.userInfo.UserInfo"/>
@@ -18,7 +12,7 @@
         </classes>
     </test>
 
-    <test name="Toilet seat Tests Tests">
+    <test name="Toilet seat Tests">
         <classes>
             <class name="testScenarios.putToiletSeatDown.toiletSeatDown"/>
         </classes>

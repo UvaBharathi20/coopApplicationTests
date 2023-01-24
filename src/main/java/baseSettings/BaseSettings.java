@@ -28,7 +28,7 @@ public class BaseSettings {
         properties.put("collectEggs", "/api/USER_ID/eggs-collect");
         properties.put("countEggs", "/api/USER_ID/eggs-count");
         properties.put("responseTimeLimit", "5000");
-        properties.put("accessToken", "1fc761a91cdc5edc6d835ef6a6cfe0d26bacaa05");
+        properties.put("accessToken", "9d7c414e2bec1df1a0dd5b15fea3287d6a1f50c3");
         properties.put("invalidAccess", "1234567890qwertyuioad455vt55yh660kj4n4fd");
         properties.put("client_id", "Coop Application");
         properties.put("client_secret", "3b7c6e5e10d740ab017fcbdad01b73bf");
