@@ -14,6 +14,6 @@ Testing
 
 To run all test use: mvn clean kotest
 
-To run the test from xml file right click on the coopApplicationTests/testRunners/coopApplicationTestsInParallel.xml file and select option run "<filename>"
+To run the test from xml file right click on the coopApplicationTests/testRunners/coopApplicationTestsInParallel.xml file and select option run "[filename]"
   
 <img width="1440" alt="Screenshot 2023-01-24 at 01 40 41" src="https://user-images.githubusercontent.com/87369149/214186835-8361a016-bb3c-4925-8ff8-040ae0d36aa4.png">
