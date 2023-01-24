@@ -12,6 +12,8 @@ Add your user details in src/test/java/testScenarios/userInfo/UserInfo.java wher
 
 Testing
 
+Run from terminal
+
 To run all test use: mvn clean kotest
 
 To run the test from xml file right click on the coopApplicationTests/testRunners/coopApplicationTestsInParallel.xml file and select option run "[filename]"
